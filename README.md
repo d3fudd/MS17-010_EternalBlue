@@ -26,9 +26,9 @@ wine cmd
 <br>
 
 Realize o download do exploit, descompacte o arquivo ms17-010.tar.gz.
-```
-wget http://www.100security.com.br/downloads/ms17-010.tar.gz
-```
+<br>
+
+https://github.com/caique-garbim/MS17-010/raw/main/ms17-010.tar.gz
 ```
 tar xf ms17-010.tar.gz
 ```
