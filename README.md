@@ -1,12 +1,13 @@
 # Eternalblue Doublepulsar (MS17-010)
 
-Explorando Windows com EternalBlue (MS17-010) sem Metasploit.
+Explorando Windows com EternalBlue (MS17-010) sem Metasploit utilizando Kali Linux 2022.3.
 
 Testado em:
 
 - Windows 7 Ultimate 7601 Service Pack 1 (32 bits)
 - Windows 7 Professional 7601 Service Pack 1 (64 bits)
 - Windows XP Professional 2600 Service Pack 2 (32 bits)
+- Windows Server 2008 Enterprise 6001 Service Pack 1 (32 bits)
 
 #
 
@@ -31,6 +32,13 @@ Após a instalação certifique-se que o **Wine** esteja instalado, em seguida e
 wine cmd
 ```
 <br>
+
+Realize a correção do impacket utilizando pimpmykali (para utilizar os exploits python2)
+<br>
+
+https://github.com/Dewalt-arch/pimpmykali
+
+#
 
 Realize o download do exploit, descompacte o arquivo ms17-010.tar.gz.
 <br>
