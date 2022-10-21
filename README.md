@@ -1,4 +1,4 @@
-# Eternalblue Doublepulsar (MS17-010)
+# EternalBlue (MS17-010)
 
 Explorando Windows com EternalBlue (MS17-010) sem Metasploit utilizando Kali Linux 2022.3.
 
