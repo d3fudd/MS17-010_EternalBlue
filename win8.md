@@ -6,7 +6,7 @@ https://github.com/caique-garbim/MS17-010/raw/main/ms17-010.tar.gz
 tar xf ms17-010.tar.gz
 ```
 ```
-cd ms17-010/win8
+cd ms17-010/win8/
 ```
 
 ### Exploração
