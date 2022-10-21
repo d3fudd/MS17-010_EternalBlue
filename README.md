@@ -1,6 +1,6 @@
-# MS17-010
+# Eternalblue Doublepulsar (MS17-010)
 
-Explorando Windows XP/7 com EternalBlue (MS17-010) sem Metasploit.
+Explorando Windows com EternalBlue (MS17-010) sem Metasploit.
 
 Testado em:
 
