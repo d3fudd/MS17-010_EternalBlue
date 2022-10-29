@@ -6,6 +6,7 @@ Testado em:
 
 - [como explorar](win7xp.md#anchortext) Windows 7 Ultimate 7601 Service Pack 1 (32 bits)
 - [como explorar](win7xp.md#anchortext) Windows 7 Professional 7601 Service Pack 1 (64 bits)
+- [como explorar](winser2003.md#anchortext) Windows Server 2003 3790 Service Pack 2 (32 bits)
 - [como explorar](win7xp.md#anchortext) Windows XP Professional 2600 Service Pack 2 (32 bits)
 - [como explorar](win8.md#anchortext) Windows Server 2008 Enterprise 6001 Service Pack 1 (32 bits)
 
