@@ -1,7 +1,7 @@
 Realize o download do exploit, descompacte o arquivo ms17-010.tar.gz.
 <br>
 
-https://github.com/caique-garbim/MS17-010_EternalBlue/raw/main/ms17-010.tar.gz
+https://github.com/d3fudd/MS17-010_EternalBlue/raw/main/ms17-010.tar.gz
 ```
 tar xf ms17-010.tar.gz
 ```
